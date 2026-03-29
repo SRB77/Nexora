@@ -1,0 +1,24 @@
+{
+  "name": "editor-server",
+  "version": "1.0.0",
+  "description": "This is a collaborative Editor where anyone can come and code along side to you ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "server",
+    "docker",
+    "aws"
+  ],
+  "author": "Chandan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "socket.io": "^4.8.3",
+    "y-socket.io": "^1.1.3"
+  }
+}
